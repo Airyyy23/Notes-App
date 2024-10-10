@@ -4,6 +4,7 @@ import CustomButton from './components/Button';
 import NoteForm from './components/NoteForm';
 import SearchBar from './components/SearchBar';
 import NoteList from './components/NoteList';
+import Footer from './components/Footer.jsx';
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const MainComponent = () => {
       <hr className="w-4/5 m-auto mb-5" />
       <SearchBar />
       <NoteList />
+      <Footer />
     </div>
   );
 };
